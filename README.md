@@ -1,6 +1,6 @@
 # sichuan cuisine: a three course sampler
 
-## Introduction
+### Introduction
 
 Make sure you have a full stomach before you read my project because it will
 make you hungry! I wrote this creative non-fiction piece on Sichuanese cuisine
@@ -9,15 +9,15 @@ very non-traditional format, so I tried combining my interests of writing
 and coding into one. This was a super fun project, and I love how it turned out
 as well as how much I learned from it.
 
-## Technologies
+### Technologies
 
 HTML5, CSS3
 
-## Instructions for use
+### Instructions for use
 If you'd like to play around, this is the link to my Figma prototype -
 https://www.figma.com/proto/MYYa8BlAsZTbF9UcBLDxVz/sichuan-cuisine?node-id=4%3A64&scaling=scale-down
 
-## Bugs/shortcomings
+### Bugs/shortcomings
 
 This was my first time creating a website, and from scratch, so I made the
 mistake of designing for desktop first, and not mobile. While putting everything

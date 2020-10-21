@@ -1,0 +1,245 @@
+/* initial setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+/* font options*/
+nav, footer, .major-sections {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 300;
+  line-height: 1.8em;
+  color: #3b3b38;
+}
+strong {
+  font-weight: 700;
+}
+em {
+  font-family: 'Noto Sans JP', sans serif;
+  font-style: italic;
+}
+
+/* navigation menu & footer*/
+nav, footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  background: #BF6666;
+  font-weight: 100;
+  color: #FFFCF3;
+}
+nav {
+  position: fixed;
+  top: 0;
+  height: 65px;
+  align-items: center;
+  filter: drop-shadow(0 0 0.12rem grey);
+}
+footer {
+  height: 200px;
+  width: 100%;
+  align-items: flex-end;
+  font-size: 0.5em;
+}
+a:link,
+a:visited {
+  color: #FFFCF3;
+  text-decoration: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+a:hover {
+  background-color: #92BCE4;
+  padding: 10px;
+  border-radius: 5px;
+}
+.menu {
+  text-align: center;
+}
+.menu > li {
+  display: inline;
+  padding: 10px;
+}
+.recipes {
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
+  width: 80%;
+}
+
+/* intro menu & works cited */
+.cover {
+  display: block;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 50%;
+}
+
+/* general text */
+.major-sections {
+  width: 55%;
+  margin: 0 auto;
+  font-weight: 300;
+}
+
+/* customization */
+#douban-blog-post {
+  width: 65%;
+  margin-left: 50px;
+}
+
+.titles {
+  display: block;
+  padding-top: 65px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+
+.sichuan-cuisine {
+  display: block;
+  padding-top: 55px;
+  margin-left: 0;
+  width: 70%;
+}
+
+.subtitles{
+  padding-top: 25px;
+}
+
+#peppercorn-subtitle {
+  width: 50%;
+}
+
+#chili-subtitle {
+  width: 30%;
+  margin-left: 70%;
+}
+
+#douban-subtitle {
+  width: 65%;
+  margin-left: 35%;
+}
+/* appetizer-layout */
+.appetizer-layout-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+#three-appetizer-pghs{
+  width: 55%;
+  margin-left: 15px;
+}
+#muer-img {
+  width: 40%;
+}
+/* peppercorn layout */
+.peppercorn-layout-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: -30px;
+}
+#peppercorn-m2-imgs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 45%;
+}
+#peppercorn-img {
+  width: 90%;
+  margin-left: 60px;
+  padding: 10px;
+}
+#m2-img {
+  height: 40%;
+  margin-right: 175px;
+}
+#peppercorn-grenade-text {
+  width: 48%;
+}
+#sanshool-text {
+  width: 50%;
+  margin-top: -45px;
+}
+#sanshool-img-container {
+  width: 45%;
+  margin-top: -100px;
+}
+#sanshool-img {
+  width: 100%;
+}
+/* chili pepper layout */
+.chili-pepper-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#chili-pepper-paragraphs {
+  width: 50%;
+}
+#chili-pepper-img {
+  width: 100%;
+}
+#chili-pepper-img-container {
+  width: 40%;
+}
+/* entree layout */
+.entree-layout-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#three-entree-pghs{
+  width: 53%;
+  order: 2;
+  margin-left: 15px;
+}
+#mapo-img {
+  width: 41%;
+  order: 1;
+}
+/* douban */
+#douban-blog-post {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90%;
+}
+#blog-text{
+  width: 54%;
+}
+#douban-img {
+  width: 43%;
+  margin-left: 20px;
+}
+/* dessert layout */
+.dessert-layout-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#three-dessert-pghs {
+  width: 40%
+}
+#jiuniang-img {
+  width: 30%
+}
